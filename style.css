@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #aca-logo {
+    height: 150px;
+    width: 150px;
+  }
+
+  .business-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  main {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .personal-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+
+  /* This is an ID selector */
+  #profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  h1 {
+    color:rgb(255, 0, 0);
+    margin: 5% auto;
+    font: normal small-caps bold 45px/30px Impact, serif;
+    letter-spacing: 4px;
+  }
+
+  h2 {
+    margin: auto;
+    font: arial;
+  }
+
+  .small-text {
+    color: rgb(0, 195, 255);
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .portfolio-button {
+    margin: 3% auto;
+    width: 240px;
+    height: 60px;
+    font-family: Impact, Helvetica, Arial;
+    font-size: 35px;
+    border-radius: 5px;
+    border-color: rgb(255, 255, 255);
+    background: transparent;
+    padding: 5px;
+    text-align: center;
+    color: rgb(0, 195, 255);
+    letter-spacing: 4px;
+    font-style: normal;
+  }
