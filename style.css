@@ -24,6 +24,37 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
   }
+  
+  .personal-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+
+  a:link {
+    color: rgb(0, 195, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: rgb(0, 195, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(255, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+
+  a:active {
+    color: rgb(255, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
 
   main {
     height: auto;
@@ -35,13 +66,6 @@ body {
   section {
     display: flex;
     flex-direction: row;
-  }
-
-  .personal-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 20px;
   }
 
   /* This is an ID selector */
@@ -74,9 +98,9 @@ body {
     width: 240px;
     height: 60px;
     font-family: Impact, Helvetica, Arial;
-    font-size: 35px;
+    font-size: 30px;
     border-radius: 5px;
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(255, 0, 0);
     background: transparent;
     padding: 5px;
     text-align: center;
