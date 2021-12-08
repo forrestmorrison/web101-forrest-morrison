@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./contact-me-style.css">
+</head>
+<body>
+    <form>
+        <h1 >Contact Form</h1>
+        <label>
+            <span>name :</span>
+            <input id="name" type="text" name="name" placeholder="Your Full Name" />
+        </label>
+        
+        <label>
+            <span>email :</span>
+            <input id="email" type="email" name="email" placeholder="Valid Email Address" />
+        </label>
+        
+        <label>
+            <span>comments :</span>
+            <textarea id="message" name="message" placeholder="Your Message"></textarea>
+        </label> 
+         <label>
+            <span>How did you hear about me? :</span>
+            <article class="checkboxes">
+                <input type="checkbox" name="classmate" value="classmate">Classmate<br>
+                <input type="checkbox" name="resume-submission" value="resume-submission">Resume Submission<br>
+                <input type="checkbox" name="linkedin" value="linkedin">LinkedIn<br>
+                <input type="checkbox" name="coding-academy-rec" value="coding-academy-rec">Coding Academy Rec<br>
+            </article>
+        </label>
+        <label>
+            <span>Would you like to be contacted back?</span>
+            <article>
+                <p>
+                    <input type="radio" name="yes_no" checked>Yes</input>
+                </p>
+                <p>
+                    <input type="radio" name="yes_no">No</input>
+                </p>
+            </article>
+        </label>
+        <label>
+            <span>Would you like a birthday wish? (optional)</span>
+            <article>
+                <input type="date">
+            </article>
+        </label>
+         <label>
+            <span>&nbsp;</span> 
+            <input type="submit" class="button" value="Send">
+        </label>
+    </form>
+</body>
+</html>
