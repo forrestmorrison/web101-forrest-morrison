@@ -1,0 +1,90 @@
+body {
+    font: Oswald;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+ 
+
+  .business-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .personal-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+
+  a:link {
+    color: rgb(255, 0, 0);
+    font: Oswald;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: rgb(255, 0, 0);
+    font: Oswald;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(0, 195, 255);
+    text-decoration: none;
+  }
+
+  a:active {
+    color: rgb(0, 195, 255);
+    font: Oswald;
+    text-decoration: none;
+  }
+
+  main {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* This is an ID selector */
+  #profile-pic {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    margin-left: 5px;
+  }
+
+  h1 {
+    color:rgb(255, 0, 0);
+    margin: 5% auto;
+    letter-spacing: 4px;
+  }
+
+  h2 {
+    margin: auto;
+  }
+
+  .small-text {
+    color: rgb(0, 195, 255);
+    font-size: 10px;
+    text-align: center;
+  }

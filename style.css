@@ -1,5 +1,5 @@
 body {
-    font: Oswald;
+  font-family: "Oswald", sans-serif;
   }
 
   header {
@@ -67,15 +67,16 @@ body {
 
   /* This is an ID selector */
   #profile-pic {
-    width: 250px;
-    height: 250px;
+    width: 280px;
+    height: 280px;
     border-radius: 50%;
+    margin-left: 5px;
   }
 
   h1 {
     color:rgb(255, 0, 0);
     margin: 5% auto;
-    letter-spacing: 4px;
+    letter-spacing: 10px;
   }
 
   h2 {
@@ -93,6 +94,7 @@ body {
     width: 240px;
     height: 60px;
     font-size: 30px;
+    font-family: "Oswald", sans-serif;
     border-radius: 5px;
     background: transparent;
     padding: 5px;
