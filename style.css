@@ -1,11 +1,12 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font: Oswald;
   }
 
   header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
 
   .header-text {
@@ -31,25 +32,24 @@ body {
 
   a:link {
     color: rgb(255, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
+    font: Oswald;
     text-decoration: none;
   }
 
   a:visited {
     color: rgb(255, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
+    font: Oswald;
     text-decoration: none;
   }
 
   a:hover {
     color: rgb(0, 195, 255);
-    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
   }
 
   a:active {
     color: rgb(0, 195, 255);
-    font-family: Arial, Helvetica, sans-serif;
+    font: Oswald;
     text-decoration: none;
   }
 
@@ -67,21 +67,19 @@ body {
 
   /* This is an ID selector */
   #profile-pic {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
   }
 
   h1 {
     color:rgb(255, 0, 0);
     margin: 5% auto;
-    font: normal small-caps bold 45px/30px Impact, serif;
     letter-spacing: 4px;
   }
 
   h2 {
     margin: auto;
-    font: arial;
   }
 
   .small-text {
@@ -94,7 +92,6 @@ body {
     margin: 3% auto;
     width: 240px;
     height: 60px;
-    font-family: Impact, Helvetica, Arial;
     font-size: 30px;
     border-radius: 5px;
     background: transparent;
