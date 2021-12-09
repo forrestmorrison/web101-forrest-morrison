@@ -14,10 +14,7 @@ body {
     justify-content: center;
   }
 
-  #aca-logo {
-    height: 150px;
-    width: 150px;
-  }
+ 
 
   .business-links {
     display: flex;
