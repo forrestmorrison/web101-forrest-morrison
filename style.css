@@ -15,12 +15,15 @@ body {
     justify-content: center;
   }
 
- 
+ .business {
+   margin: 10px;
+   margin-top: 20px;
+ }
 
   .business-links {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-around;
   }
   
   .personal-links {
@@ -79,8 +82,9 @@ body {
     letter-spacing: 10px;
   }
 
-  h2 {
+  h4 {
     margin: auto;
+    letter-spacing: 6px;
   }
 
   .small-text {

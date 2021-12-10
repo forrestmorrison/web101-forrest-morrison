@@ -1,5 +1,5 @@
 body {
-    font: Oswald;
+    font-family: "Oswald", sans-serif;
   }
 
   header {
@@ -15,11 +15,14 @@ body {
     justify-content: center;
   }
 
- 
+  .business {
+    margin: 10px;
+    margin-top: 20px;
+  }
 
   .business-links {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
   }
   
@@ -76,11 +79,12 @@ body {
   h1 {
     color:rgb(255, 0, 0);
     margin: 5% auto;
-    letter-spacing: 4px;
+    letter-spacing: 10px;
   }
 
-  h2 {
+  h4 {
     margin: auto;
+    letter-spacing: 6px;
   }
 
   .small-text {
