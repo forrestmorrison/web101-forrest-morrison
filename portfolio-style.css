@@ -33,6 +33,13 @@ body {
     padding: 20px;
   }
 
+  .portfolio-links {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   a:link {
     color: rgb(255, 0, 0);
     font: Oswald;
