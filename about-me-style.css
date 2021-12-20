@@ -75,8 +75,7 @@ body {
   #forrest-casual {
       width: 300px;
       display: block;
-      margin-left: auto;
-      margin-right: auto;
+      margin: 20px;
   }
 
   h1 {
@@ -94,4 +93,18 @@ body {
     color: rgb(0, 195, 255);
     font-size: 10px;
     text-align: center;
+  }
+
+  .article1 {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
   }
