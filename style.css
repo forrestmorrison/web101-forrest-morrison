@@ -29,8 +29,14 @@ body {
   .personal-links {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    margin: 20px;
     padding: 20px;
+    max-width: 1000px;
+  }
+
+  a {
+    margin: 20px;
   }
 
   a:link {
@@ -61,6 +67,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   section {
@@ -100,7 +107,9 @@ body {
     font-size: 30px;
     font-family: "Oswald", sans-serif;
     border-radius: 5px;
-    background: transparent;
+    border-color: white;
+    background-color: white;
+    border-style: solid;
     padding: 5px;
     text-align: center;
     color: rgb(0, 195, 255);
