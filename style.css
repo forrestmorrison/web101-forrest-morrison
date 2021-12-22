@@ -23,7 +23,7 @@ body {
   .business-links {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: right;
   }
   
   .personal-links {
