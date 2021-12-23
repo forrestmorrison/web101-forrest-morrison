@@ -3,15 +3,22 @@ body {
   }
 
   header {
+    height: 60px;
     max-width: 1200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url("images/nav-background.jpg");
   }
 
   footer {
+    height: 60px;
     max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
   }
 
   .header-text {
@@ -22,13 +29,15 @@ body {
 
  .business {
    margin: 10px;
-   margin-top: 20px;
+ }
+
+ #link-img {
+   width: 40px;
+   height: auto;
  }
 
   .business-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
+
   }
   
   .personal-links {
@@ -82,6 +91,7 @@ body {
 
   /* This is an ID selector */
   #profile-pic {
+    margin-top: 20px;
     width: 280px;
     height: 280px;
     border-radius: 50%;
