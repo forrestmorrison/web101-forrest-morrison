@@ -18,7 +18,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
   }
 
   .header-text {
@@ -31,13 +31,19 @@ body {
    margin: 10px;
  }
 
+ .personal {
+   margin-left: 20px;
+   margin-right: 20px;
+ }
+
  #link-img {
    width: 40px;
    height: auto;
  }
 
   .business-links {
-
+    display: flex;
+    flex-direction: row;
   }
   
   .personal-links {
@@ -50,7 +56,6 @@ body {
   }
 
   a {
-    margin: 20px;
   }
 
   a:link {
