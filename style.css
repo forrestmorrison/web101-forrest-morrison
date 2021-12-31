@@ -9,7 +9,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("images/nav-background.jpg");
   }
 
   footer {
@@ -54,9 +53,6 @@ body {
     margin: 20px;
     padding: 20px;
     max-width: 1000px;
-  }
-
-  a {
   }
 
   a:link {
