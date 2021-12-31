@@ -15,7 +15,7 @@ body {
     height: 60px;
     max-width: 1200px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
