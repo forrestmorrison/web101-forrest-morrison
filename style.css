@@ -4,30 +4,43 @@ body {
   margin: auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  
   }
 
 header {
-  height: 60px;
+  height: 200px;
   max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.banner {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
 
 .personal-links {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  margin: 20px;
-  padding: 20px;
-  max-width: 1000px;
+  justify-content: center;
+  margin: 10px;
+  padding-left: 10px;
+  max-width: 1200px;
+  font-size: 14pt;
 }
 
 .personal {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
 }
 
 main {
@@ -46,8 +59,9 @@ main {
   margin-left: 5px;
 }
 
-#forrest-logo {
-  width: 100px;
+.forrest-logo {
+  width: 120px;
+  height: 60px;
 }
 
 .header-text {
@@ -55,11 +69,13 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: 20px;
+  margin-bottom: -18px;
 }
 
 h1 {
   color:rgb(17, 159, 5);
-  margin: 5% auto;
+  margin: 1px;
   letter-spacing: 3px;
 }
 
@@ -117,13 +133,13 @@ footer {
 
 a:link {
   color: rgb(17, 159, 5);
-  font: Oswald;
+  font: Nunito;
   text-decoration: none;
 }
 
 a:visited {
   color: rgb(17, 159, 5);
-  font: Oswald;
+  font: Nunito;
   text-decoration: none;
 }
 
@@ -134,13 +150,11 @@ a:hover {
 
 a:active {
   color: rgb(93, 187, 16);
-  font: Oswald;
+  font: Nunito;
   text-decoration: none;
 }
 
-.personal {
-  text-align: center;
-}
+
 
 
 
@@ -148,9 +162,5 @@ a:active {
 
   header {
     max-width: 600px;
-  }
-
-	.personal {
-    font-size: 10pt;
   }
 }
