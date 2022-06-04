@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./about-me-style.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
@@ -12,7 +12,15 @@
 </head>
 <body>
     <header>
-      <img src="images/4rest-logo.jpg" id="forrest-logo">
+      <div class="banner">
+        <img src="images/4rest-logo.jpg" class="forrest-logo">
+        <article class="header-text">
+          <h1>
+            <a href= "https://forrestmorrison.github.io/web101-forrest-morrison">Forrest Morrison</a>
+          </h1>
+          <h4>Full Stack Web Developer</h4>
+        </article>
+      </div>
       <nav class= "personal-links">
         <a class="personal" href= "resume.html">Resume</a>
         <a class="personal" href= "https://forrestmorrison.blogspot.com">My Blog</a>
@@ -23,27 +31,11 @@
       <main>
         <section class="profile">
           <img src="images/forrest-profile-pic.jpg" id="profile-pic">
-      </section>
-        <article class="header-text">
-          <h1>
-            <a href= "https://forrestmorrison.github.io/web101-forrest-morrison">FORREST MORRISON</a>
-          </h1>
-          <h4>Student of Web Development</h4>
-        </article>
-        <article class="article1">
-          <img src="images/forrest-casual.jpg" id="forrest-casual"/>
-          <nav class="about">
-            <h3>Forrest Morrison</h3>
-            <p>I was born in New Orleans, LA on June 5, 1989 & lived in Uptown New Orleans until I was 16 years old.
-            </p>
-          </nav>
-        </article>
+        </section>
+        <button class= "portfolio-button"><a href=portfolio.html>Portfolio</button>
       </main>
       <footer>
         <nav class="business-links">
-          <a class="business" href="https://www.austincodingacademy.com">
-            <img id="link-img" src="images/aca-logo.png"/>
-          </a>
           <a class="business" href="https://www.github.com/forrestmorrison">
             <img id="link-img" src="images/github-logo.png"/>
           </a>
@@ -59,8 +51,8 @@
           <a class="business" href="https://www.youtube.com/channel/UCRjeYAh2Fc9r9TlHQu4uGFw">
             <img id="link-img" src="images/youtube-logo.png">
           </a>
-          <a class="business" href="https://forrestmorrison.github.io/nasa-page">
-            <img id="link-img" src="images/nasa-logo.jpg">
+          <a class="business" href="https://www.austincodingacademy.com">
+            <img id="link-img" src="images/aca-logo.png"/>
           </a>
         </nav>
         <a class="small-text" href="https://www.forrestmorrison.com/">©️ Forrest Morrison</a>
